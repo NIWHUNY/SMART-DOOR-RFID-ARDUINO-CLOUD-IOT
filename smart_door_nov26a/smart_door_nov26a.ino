@@ -25,7 +25,7 @@ double frequency = 200;
 uint8_t resolution_bits=10;
 DHT dht(DHTPIN, DHTTYPE);
 // Define the correct RFID card NUID
-byte correctNUID[] = {0x92, 0xA6, 0xB8, 0x89};
+byte correctNUID[] = {0x, 0x, 0x, 0x}; //write your NUID after the x
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 Servo myservo;
